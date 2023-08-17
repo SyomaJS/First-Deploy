@@ -4,8 +4,6 @@ import { Model } from 'mongoose';
 import { Animal, AnimalDocument } from './schemas/animal.schema';
 import { CreateAnimalDto } from './dto/create-animal.dto';
 import { v4 as uuidv4 } from 'uuid';
-import * as qrcode from 'qrcode';
-import axios from 'axios';
 
 import {
   AnimalType,

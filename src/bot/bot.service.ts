@@ -124,7 +124,7 @@ export class BotService {
         },
       );
     }
-    
+
     await ctx.reply(`You loogged out from BOT 🙁`, {
       parse_mode: 'HTML',
       ...Markup.keyboard([['/start']])
